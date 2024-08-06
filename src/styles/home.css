@@ -1,0 +1,51 @@
+.container-height{
+    height: 98vh;
+}
+
+.row-height{
+    height: 350px;
+}
+
+.amount-container{
+    background-color: brown;
+    border: 1px solid brown;
+    height: 60px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    color: white;
+}
+
+.left-container{
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 0.5em
+}
+
+.recent-spent{
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 0.5em;
+    margin-top: 0.5em;
+}
+
+.empty-container{
+    height: 75%;
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+@media (max-width: 767px) {
+    .empty-container {
+        height: 95%;
+        width: 95%;
+        padding: 0.5em;
+    }
+}
